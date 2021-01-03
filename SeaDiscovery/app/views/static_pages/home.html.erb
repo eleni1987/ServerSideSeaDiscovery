@@ -1,0 +1,12 @@
+<div class="mainCont">
+<%= image_tag("logo2.jpg", alt: "Welcome Logo", :class => "welcomeIm") %>    
+    
+
+<% provide(:title, "Home") %>
+<h2>Welcome to our SeaDiscovery E-shop!</h2>
+<h2>Please have a look at our Products Categories!</h2>
+<br>
+
+<%=render 'layouts/categories'%>
+
+

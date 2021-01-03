@@ -1,0 +1,30 @@
+<div class="help">
+
+<% provide(:title, 'Help') %>
+
+<h1>Contact us for Help</h1>
+
+    <h2>SeaDiscovery is Located:</h2>
+    <p>Main Street, Dublin, Ireland</p>
+	<p>For any queries please contact the Customer Service Team:</p>
+	<p>Tel: +353 (0)12 12345</p>
+	<p>Email:customerservice@seadiscovery.com</p>
+  
+  <script>
+ 
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+</script>
+
+ <div id="googleMap" style="width:100%;height:450px;float:left;">
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+ </div>
+  
+ 
